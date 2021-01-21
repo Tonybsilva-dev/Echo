@@ -23,6 +23,12 @@
     ],
     "rules": {
         "prettier/prettier": "error",
-        "react/jsx-filename-extesion": [1, {"extensions": [".js", ".tsx"]}]
+        "react/jsx-filename-extesion": [1, {"extensions": [".js", ".tsx"]}],
+        "react/prop-types": "off",
+        "react/jsx-props-no-spreading": ["error",{
+          "html": "ignore",
+          "custom": "ignore",
+          "exceptions": [""]
+        }]
     }
 }
