@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Tonybsilva-dev/Barber-App">
-    <img src="https://i.imgur.com/nVkLtRb.png" alt="Logo" width="300" height="300">
+    <img src="https://i.imgur.com/nVkLtRb.png" alt="Logo" width="300" height="200">
   </a>
 
   <h3 align="center">Echo</h3>
