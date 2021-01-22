@@ -18,7 +18,7 @@
     <a href="https://github.com/Tonybsilva-dev/Echo/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Tonybsilva-dev/Echo">View Demo</a>
+    <a href="https://echo.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/Tonybsilva-dev/Echo/issues">Report Bug</a>
     ·
