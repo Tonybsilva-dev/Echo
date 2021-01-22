@@ -16,7 +16,7 @@ import {
   Button,
 } from '@material-ui/core';
 import HomeIcon from '@material-ui/icons/Home';
-import Subscriptions from '@material-ui/icons/Subscriptions';
+import BlurOn from '@material-ui/icons/BlurOn';
 import Whatshot from '@material-ui/icons/Whatshot';
 
 import VideoLibrary from '@material-ui/icons/VideoLibrary';
@@ -50,18 +50,18 @@ const useStyles = makeStyles((theme) => ({
 
 const primaryMenu = [
   { id: 1, label: 'Início', path: '/', icon: HomeIcon },
-  { id: 2, label: 'Em alta', path: '/trendding', icon: Whatshot },
+  { id: 2, label: 'Atualizações', path: '/updates', icon: Whatshot },
   {
     id: 3,
-    label: 'Inscrições',
-    path: 'subscriptions',
-    icon: Subscriptions,
+    label: 'Dev',
+    path: 'dev',
+    icon: BlurOn,
   },
 ];
 
-const secondaryManu = [
-  { id: 1, label: 'Biblioteca', icon: VideoLibrary },
-  { id: 2, label: 'Histórico', icon: History },
+const secondaryMenu = [
+  { id: 1, label: 'Perfil', icon: AccountCircle },
+  { id: 2, label: 'Ponto Eletrônico', icon: History },
 ];
 
 function NavBar() {
@@ -107,7 +107,7 @@ function NavBar() {
       </List>
       <Divider />
       <List>
-        {secondaryManu.map((item) => {
+        {secondaryMenu.map((item) => {
           const Icon = item.icon;
           return (
             <ListItem
@@ -144,7 +144,7 @@ function NavBar() {
           </Box>
         </Box>
 
-        <List
+        {/* <List
           subheader={
             <ListSubheader component="div" id="nested-list-subheader">
               INSCRIÇÕES
@@ -169,7 +169,7 @@ function NavBar() {
               />
             </ListItem>
           ))}
-        </List>
+        </List> */}
 
       </Box>
     </Box>

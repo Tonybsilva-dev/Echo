@@ -80,7 +80,7 @@ export default function topBar() {
           <MoreVert />
         </IconButton>
         <Button
-        color="secondary"
+        color="primary"
         component="a"
         variant="outlined"
         startIcon={<AccountCircle />}
