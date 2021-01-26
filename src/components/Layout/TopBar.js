@@ -32,12 +32,14 @@ const useStyles = makeStyles((theme) => ({
   search: {
     padding: '2px 4px',
     display: 'flex',
+    left: 0,
     alignItems: 'center',
     height: 35,
     width: 700
   },
   input: {
-    flex: 1
+    flex: 1,
+    padding: '4px 4px'
   }
 }))
 

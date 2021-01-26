@@ -16,7 +16,7 @@ import {
   Button,
 } from '@material-ui/core';
 import HomeIcon from '@material-ui/icons/Home';
-import BlurOn from '@material-ui/icons/BlurOn';
+import LocalCafe from '@material-ui/icons/LocalCafe';
 import Whatshot from '@material-ui/icons/Whatshot';
 
 import VideoLibrary from '@material-ui/icons/VideoLibrary';
@@ -55,7 +55,7 @@ const primaryMenu = [
     id: 3,
     label: 'Dev',
     path: 'dev',
-    icon: BlurOn,
+    icon: LocalCafe,
   },
 ];
 
